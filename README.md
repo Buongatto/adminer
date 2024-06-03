@@ -11,7 +11,7 @@ You can easily integrate it into your projects. <br>
  - Dark theme is built-in by default; <br>
  - The script tested on Apache/2.4.59 (Win64) OpenSSL/1.1.1n PHP/8.3.7; <br>
  - Base64 encoding allowed to make the final version even lighter; <br>
- - It's easier to make/change skins (look at the line 159: you need to decode and decompress CSS template, than make your changes and replace the main template); <br>
+ - It's easier to make/change skins (If you want to change the file's template look at the line 158. You can use <em>base64_decode()</em> and unpack the CSS template from the <em>$css_v1</em> variable, than make your changes and replace the main template. See the code for more information); <br>
  - Minor bugs were fixed and images were replaced with html entities.
 
  <h2>Original version</h2>
